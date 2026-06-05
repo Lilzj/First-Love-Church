@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { motion } from 'framer-motion';
-import { Users, DollarSign, Calendar, BookOpen, Zap, ArrowRight, Clock, Loader2 } from 'lucide-react';
+import { Users, DollarSign, Calendar, BookOpen, Zap, ArrowRight, Loader2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { StatCard } from '@/components/admin/StatCard';
 import { dashboardService } from '@/services/dashboardService';

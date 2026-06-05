@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { Plus, Trash2, Upload, Loader2, FolderPlus, Image } from 'lucide-react';
+import { Trash2, Upload, Loader2, FolderPlus, Image } from 'lucide-react';
 import { DataTable } from '@/components/admin/DataTable';
 import { Modal } from '@/components/admin/Modal';
 import { FormField } from '@/components/admin/FormField';

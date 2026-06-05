@@ -2,7 +2,7 @@ import type { ReactNode } from 'react';
 
 interface FormFieldProps {
   label: string;
-  type?: 'text' | 'textarea' | 'select' | 'date' | 'email' | 'url' | 'number' | 'file';
+  type?: 'text' | 'textarea' | 'select' | 'date' | 'datetime-local' | 'email' | 'url' | 'number' | 'file';
   value?: string;
   onChange?: (value: string) => void;
   placeholder?: string;
